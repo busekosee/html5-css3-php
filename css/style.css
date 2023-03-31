@@ -1,0 +1,303 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Shantell Sans', cursive;
+  margin:0;
+}
+#menu{
+  height: 80px;
+  background-color: aliceblue;
+  margin-bottom: auto;
+  margin-top: 10px;
+  padding:  20px;
+  color: black;
+}
+#logo{
+  font-size: 30px;
+  line-height: 40px;
+  color: darkolivegreen;
+  float: left;
+
+}
+nav{
+  float: right;
+ line-height: 80px;
+
+}
+nav a:link{
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+
+}
+nav a:hover{
+  text-decoration: underline;
+ text-decoration-color: black;
+
+}
+nav a:visited{
+  text-decoration: none;
+  margin-right: 40px;
+  color: black;
+}
+.ikon{
+  margin-right: 7px;
+  font-size: 16px;
+}
+#Anasayfa{
+  height: 600px;
+ background-image: url("../img/2.jpg");
+ background-size: cover;
+ background-position: center;
+  background-attachment: fixed;
+
+}
+#black{
+  height: 600px;
+  background-color: #222222;
+  opacity:0.5;
+
+}
+#icerik{
+  position: absolute;
+  top:50%;
+  left:40%;
+ transform: translate(-50%,-50%);
+  color: white;
+}
+#hakkımızda{
+  background-color:#ffffff;
+  padding:50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+
+}
+h3{
+  font-size: 55px;
+  color:#222222;
+
+  font-weight: 600;
+
+}
+.container{
+  width:1200px;
+  height:auto;
+  margin: auto;
+}
+#sol{
+  float:left;
+  border-right: 3px solid #222222;
+  font-size: 30px;
+  width:400px;
+  color:#222222;
+
+}
+#h5sol{
+  line-height: 1.6;
+  font-size:25px;
+  font-weight: 600;
+}
+#h5sol ,#sag{
+
+  padding:0;
+  margin-top: 20px;
+
+}
+span{
+  font-size:50px;
+  margin-right:7px;
+  line-height:42px;
+  color:#222222;
+  font-weight: 600;
+  float: left;
+}
+#sag{
+  float: right;
+  width: 750px;
+  color:#000000;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 100;
+}
+.img-fluid{
+  width:100%;
+  height: auto;
+
+
+
+}
+
+.mt100{
+  margin-top:100px;
+
+}
+#pson{
+  color:#999;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1px;
+  margin-top: 10px;
+
+}
+#Egitimler{
+  background-color: #ffffff;
+  padding:100px;
+  text-align: center;
+  height: 700px;
+  margin-bottom: 50px;
+}
+.card{
+  width:320px;
+  height:350px;
+  border:1px solid #888888;
+  padding: 0;
+  display: inline-block;
+}
+.cardbaslik{
+  font-size: 15px;
+  color:#000000;
+}
+.cardp{
+  color:#222222;
+}
+.card:hover{
+  border:2px solid
+  black;
+
+}
+#ekip{
+  background-color: #869791;
+  padding:50px;
+  height:800px;
+  text-align: center;
+}
+#ekiph3{
+  color: saddlebrown ;
+}
+.sutun-sol-sag{
+  width:385px;
+  float: left;
+  padding:50px;
+
+}
+.oval{
+  border-radius: 50%;
+}
+.ekipisim{
+  color: #cccccc;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.ekipp{
+  color:#222222;
+  font-size: 20px;
+
+
+}
+.social{
+  color:white;
+  border: 1px solid white;
+  padding:20px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px 10px 10px;
+}
+.social :hover{
+  background-color: #888888;
+}
+#iletisim{
+  background:url("../img/11.jpg");
+  background-size: auto;
+  padding:50px;
+  height:300px;
+  text-align: center;
+}
+#h3iletisim{
+  color: black;
+}
+#iletisimopak{
+  background: rgba(255,255,255,0.2);
+  padding:30px 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  height:400px;
+}
+#formgroup{
+  width:700px;
+  float: left;
+  height:500px;
+  text-align: left;
+}
+#solform{
+  width:50%;
+  float: left;
+}
+#sagform{
+  width:50%;
+  float:right;
+  padding-left: 5px;
+}
+.form-control{
+  width:100%;
+  padding:10px;
+  font-size: 15px;
+  line-height:1.5;
+  color:#000000;
+  background-color: #cccccc;
+  margin:10px;
+  border-radius: 5px;
+  border: #555555;
+
+
+}
+textarea{
+  font-family: Arial;
+}
+input[type="submit"]{
+  cursor:pointer;
+  background-color: #869791;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding:10px 20px;
+  color:white;
+  border: 2px solid white;
+border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#adres{
+  width:450px;
+  float: left;
+  paddig:20px;
+  height:400px;
+  text-align: right;
+
+}
+#adresbaslık{
+  font-size: 30px;
+  color:white;
+}
+.adresp{
+  color:#ddd;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+}
+#copyright{
+  color:white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+#up{
+  color:saddlebrown;
+  border:1px solid white;
+  font-size: 15px;
+  padding:7px 24px;
+  margin-top: 20px;
+}
